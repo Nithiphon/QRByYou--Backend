@@ -16,7 +16,7 @@ CORS(app)
 # Configuration
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'doc', 'docx', 'zip', 'rar'}
-MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
+MAX_FILE_SIZE = 20 * 1024 * 1024  # 10MB
 
 # Create upload folder if not exists
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)

@@ -3,3 +3,5 @@ qrcode[pil]==7.4.2
 Flask-CORS==5.0.0
 Pillow==10.4.0
 gunicorn==21.2.0
+pyzbar==0.1.9
+werkzeug==3.0.3
